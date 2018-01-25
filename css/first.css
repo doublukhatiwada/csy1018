@@ -1,0 +1,20 @@
+	header{
+
+	 background: red;
+	 text-align: center;
+	 color: yellow; font-size: 40px;
+	 padding-left: : 5%;
+	 font-family: cursive;
+		 }
+    section{
+ 	background: green;
+ 	text-align: center;
+ 	padding-right: 3%;
+  	font-family: bold;
+       }
+    footer{
+	background: blue;
+	text-align: center;
+	padding-top: 4%
+	font-family: unset;
+        }
