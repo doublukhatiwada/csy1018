@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contact.html</title>
+	<!-- linking css file -->
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<!-- creating responsive design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<!-- adding header -->
+	<header>
+		<h3> Contacts</h3>
+	<!-- adding navigation bar -->
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="cv.html">C.V.</a></li>
+			<li><a href="model_gp.html">Model_gp</a></li>
+			<li><a href="contact.html">Contacts</a></li>
+			<li><a href="social.html">Social</a></li>
+
+		</ul>
+	</nav>
+    </header>
+    <div class="contact">
+    	<h1>Contact Us</h1>
+    </div>
+    <section>
+    	<div class="first"><br> 
+    		<b>Mailing Address</b><br><br>
+    		  Bhuwan Khatiwada<br>
+    		  Saraswatinagar, Kathmandu<br><br><br>
+    		  <b>Postal Code</b><br><br>
+    		  44600<br><br><br>
+    		  <b>Contact address</b><br><br>
+    		  Cell- 9803311904<br>
+    		  Landline- 01-4811462<br><br></div>
+    		  <div class="first"><br>
+    		  	<b> Email Address</b><br><br>
+    		  	doublu.doublu30@gmail.com<br>
+    		  	doublu.doublu47@gmail.com<br><br><br>
+    		  	<b> Working Hours</b><br><br>
+    		  	 Open: 10 P.M.<br>
+    		  	 Close: 5 P.M.<br><br><br></div>
+     </section><br><br>
+     <div class="contact">
+    	<h1> What would you like to know ?</h1>
+    </div>
+    <!-- feedback form stated -->
+    <article>
+    	<form class="one"><br>
+    		First Name : (required)<br>
+    		<input type="text" name="firstname" placeholder="Enter your name...."><br><br>
+    		Middle Name: (optional)<br>
+    		<input type="text" name="middlename" placeholder="Middle name here.."><br><br>
+    		Last Name: (required)<br>
+    		<input type="text" name="lastname" placeholder="Your Last name.."><br><br>
+    		
+    	Gender:
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option><br><br></select>
+      <br><br>
+       Email : (required)<br>
+       <input type="text" name="email" placeholder="youremail@example.com..."><br><br>
+       Tel : (optional)<br>
+       <input type="text" name="tel" placeholder="+977"><br><br>
+       Subject :<br>
+       <input type="text" name="Subject"><br><br>
+       <textarea name="message" rows="10" cols="53"></textarea><br><br>
+       <input type="submit" value="Submit"><br><br>
+       </form>
+       <!-- form validation using java script -->
+       <script language="javascript">
+           function validateForm(fm) {
+       if (fm.firstname.text=="") {
+       	alert("Please enter your first name");
+       	return false;}
+       	if (fm.lastname.text=="") {
+       	alert("Please enter your last name");
+       	return false;}
+       	if (fm.email.text=="") {
+       	alert("Please enter your email address");
+       	return false;}
+       }
+</script>
+       <div class="image">
+       	<!-- image source-https://www.bielefeldjasicher.de/images/speech.png -->
+       	<img src="feedback.png"></div>
+       </article><br><br>
+       <!-- adding map in website -->
+       <!-- map embedded from google maps -->
+       <div class="contact">
+    	<h1>Find Us</h1>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3531.7422456186746!2d85.34707191493729!3d27.725243531312525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1521252956441" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!-- footer section of the web page -->
+     <footer>
+
+    	<div class="foot"> <h3>About us</h3>
+    		<p>Bhuwan Khatiwada is a student currenty studying Computing in NAMI college. He aspire to become good IT professional in future.</p> 
+    	    </div>
+    	    <div class="foot2">
+    	    	<h3> Find Us</h3>
+    	    	facebook- www.facebook.com/doublu.katiwada
+    	    </div>
+    	    <div class="foot1"><h3> copyright</h3>
+    	    © 2018 BhuwanKhatiwada.All Rights Reserved. Designed By Bhuwan Khatiwada.</div>
+    	    
+    </footer>
+</body>
+</html>
