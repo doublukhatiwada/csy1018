@@ -10,6 +10,10 @@ header{
 	background-color: #0e1726;
 	margin-top: -2%;
 }
+header div img{
+	width: 200px;
+	height: 200px;
+}
 
 /*css in navigation bar*/
 nav{
@@ -98,7 +102,7 @@ input[type=submit] {
     cursor: pointer;
 }
 /* image source-https://www.bielefeldjasicher.de/images/speech.png*/
- .image{
+ article div img{
 	width: 400px;
 	padding: 110px;
 }
@@ -158,7 +162,7 @@ section{
  	border-color: #d1d8e0;
  	margin: 1%;
  }
- .iamge{
+ article div img{
 	content: hidden;
 	display: none;
 }
