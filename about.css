@@ -1,4 +1,5 @@
 body{
+	margin:0;
 	background-color:grey;
 }
 /*header edited here*/
@@ -100,7 +101,7 @@ div img:hover{
  
 /*footer section started.*/
 footer{
-	padding: 0.5%;
+	padding: 1%;
 	background: #0e1726;
 	display: flex;
 	justify-content: space-around;
@@ -109,10 +110,11 @@ footer{
 /* css for responsive design*/
 @media(max-width: 800px){
 	body{
-		width:100%;
+		width: 100%;
 	}
 	header{
-		margin-top: -2%;
+	 margin-top: -13%;
+	 margin-left: -3%;
 	}
 	header h3{
 	color: #d1d8e0;
@@ -153,6 +155,8 @@ footer{
 	display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+	padding: 5%;
+	margin-left: -2%;
 }
 article{
 	display: flex;

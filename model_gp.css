@@ -1,5 +1,6 @@
 body{
-	background-color:grey;
+	background-color:#fff;
+	margin: 0;
 }
 /*header edited here*/
 header{
@@ -48,7 +49,7 @@ nav ul li a:hover{
 }
 /*footer section started.*/
 footer{
-	padding: 0.5%;
+	padding: 1%;
 	background: #0e1726;
 	display: flex;
 	justify-content: space-around;
@@ -57,10 +58,11 @@ footer{
 /* css for responsive design*/
 @media(max-width: 800px){
 	body{
-		width:100%;
+		width:96%;
 	}
 	header{
-		width: 100%;
+    margin-top: -13%;
+    margin-left: -3%;
 	}
 	header h3{
 	color: #d1d8e0;
@@ -68,11 +70,9 @@ footer{
 	text-align: none;
 	padding left:30px;
 	display: flex;
-	width: 100%;
 }
 nav ul{
 	display: block;
-	width: 100%
 	list-style: none;
 	padding-left: 0;
 	padding: 20px;
@@ -80,8 +80,8 @@ nav ul{
 margin-bottom: 0px;
 }
 footer{
-	width: 100%;
 	display:flex;
 	flex-direction: column;
-	flex-wrap: wrap;;
+	flex-wrap: wrap;
+	margin-left: -3%;
 }

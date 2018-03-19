@@ -1,5 +1,6 @@
 body{
 	background-color:grey;
+	margin: 0;
 }
 /*header edited here*/
 header{
@@ -107,7 +108,7 @@ article{
     transform: scale(1.1);}
 /*footer section started.*/
 footer{
-	padding: 0.5%;
+	padding: 1%;
 	background: #0e1726;
 	display: flex;
 	justify-content: space-around;
@@ -119,7 +120,8 @@ footer{
 		width:100%;
 	}
 	header{
-		margin-top: -2;
+		margin-top: -13%;
+		margin-left: -3%;
 	}
 	header h3{
 	color: #d1d8e0;
@@ -159,6 +161,7 @@ div img{
 	background-color: #0e1726;
 	color: white;
 	text-align: center;
+	margin-left: -1%;
 }
 article{
    display: flex;
@@ -179,5 +182,7 @@ article{
 footer{
 	display:flex;
 	flex-direction: column;
-	flex-wrap: wrap;;
+	flex-wrap: wrap;
+	margin-left: -3%;
+	padding: 5%;
 }

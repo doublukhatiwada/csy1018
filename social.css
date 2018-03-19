@@ -1,5 +1,6 @@
 body{
 	background-color:grey;
+	margin: 0;
 }
 /*header edited here*/
 header{
@@ -78,7 +79,7 @@ a img{
 	border-radius: 20%;
 }
 footer{
-	padding: 0.5%;
+	padding: 1%;
 	background: #0e1726;
 	display: flex;
 	justify-content: space-around;
@@ -90,7 +91,8 @@ footer{
 		width:100%;
 	}
 	header{
-		margin-top: -2%;
+		margin-top: -13%;
+		margin-left: -3%;
 	}
 	header h3{
 	color: #d1d8e0;
@@ -107,6 +109,10 @@ nav ul{
 	text-decoration-line: none;
 margin-bottom: 0px;
 }
+/* h1 edited in responsive design*/
+h1{
+font-size: 20px;
+}
 /*topic edited in responsive design*/
 .topic{
 	font-size: 15px;
@@ -114,7 +120,10 @@ margin-bottom: 0px;
 }
 .text{
 	padding-left: 5px;
-	margin-bottom: : 20px;
+	margin-left: -9%;
+}
+.pic{
+	margin: 1%;
 }
 /* atrticle content edited for responsive design*/
 article {
@@ -123,9 +132,12 @@ article {
 	margin-left: 7%;
 	padding: 0.5%;
 }
+
 footer{
 	padding: 5px;
 	display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
+	margin-left: -3%;
+	padding: 5%;
 }

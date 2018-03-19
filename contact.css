@@ -1,5 +1,6 @@
 body{
 	background-color:grey;
+	margin:0;
 }
 /*header edited here*/
 header{
@@ -114,7 +115,7 @@ iframe{
 
 /*footer section started.*/
 footer{
-	padding: 0.5%;
+	padding: 1%;
 	background: #0e1726;
 	display: flex;
 	justify-content: space-around;
@@ -126,7 +127,8 @@ footer{
 		width:100%;
 	}
 	header{
- margin-top: -2%;
+ margin-top: -13%;
+ margin-left: -3%;
 	}
 	header h3{
 	color: #d1d8e0;
@@ -152,11 +154,11 @@ section{
     display: flex;
  	flex-direction: column;
  	flex-wrap: wrap;
- 	width: 80%;
+ 	width: 76%;
  	border-style: solid;/*adding border in section*/
  	border-width: 3px;
  	border-color: #d1d8e0;
- 	margin: 1%;
+ 	margin: auto;
  }
  article{
  	display: flex;
@@ -196,11 +198,16 @@ textarea{
 
 }
 iframe{
+	margin: auto;
 	padding: 2%;
+	height: 300px;
+	width: 220px;
 }
 
 footer{
+	padding: 5%;
 	display:flex;
 	flex-direction: column;
-	flex-wrap: wrap;;
+	flex-wrap: wrap;
+	margin-left: -3%;
 }
