@@ -4,6 +4,8 @@ body{
 }
 /*header edited here*/
 header{
+	display: flex;
+	justify-content: space-between;
 	padding-top: 0%;
 	background-color: #0e1726;
 	margin-top: -2%;

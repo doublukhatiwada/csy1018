@@ -4,19 +4,13 @@ body{
 }
 /*header edited here*/
 header{
+	display: flex;
+	justify-content: space-between;
 	padding-top: 0%;
 	background-color: #0e1726;
 	margin-top: -2%;
 }
-header h3{
-	color: #d1d8e0;
-	font-size: 30px;
-	text-align: none;
-	padding left:30px;
-	display: flex;
-	padding-left: 17px;
-	padding-top: 12px;
-}
+
 /*css in navigation bar*/
 nav{
 	background-color: #0e1726;
@@ -103,7 +97,7 @@ input[type=submit] {
     cursor: pointer;
 }
 /* image source-https://www.bielefeldjasicher.de/images/speech.png*/
- img{
+ .image{
 	width: 400px;
 	padding: 110px;
 }
@@ -125,18 +119,12 @@ footer{
 @media(max-width: 800px){
 	body{
 		width:100%;
-	}
+}
 	header{
  margin-top: -9%;
  margin-left: -3%;
-	}
-	header h3{
-	color: #d1d8e0;
-	font-size: 30px;
-	text-align: none;
-	padding left:30px;
-	display: flex;
 }
+
 nav ul{
 	display: block;
 	list-style: none;
@@ -169,7 +157,7 @@ section{
  	border-color: #d1d8e0;
  	margin: 1%;
  }
- img{
+ .iamge{
 	content: hidden;
 	display: none;
 }
@@ -200,8 +188,8 @@ textarea{
 iframe{
 	margin: auto;
 	padding: 2%;
-	height: 300px;
-	width: 220px;
+	width: 95%;
+	height: 400px;
 }
 
 footer{
