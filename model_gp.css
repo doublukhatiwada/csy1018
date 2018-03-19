@@ -66,13 +66,7 @@ footer{
     margin-top: -13%;
     margin-left: -3%;
 	}
-	header h3{
-	color: #d1d8e0;
-	font-size: 30px;
-	text-align: none;
-	padding left:30px;
-	display: flex;
-}
+
 nav ul{
 	display: block;
 	list-style: none;
