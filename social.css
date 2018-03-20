@@ -96,9 +96,10 @@ nav ul{
 	list-style: none;
 	padding-left: 10;
 	padding: 20px;
-	text-decoration-line: none;
-	text-decoration-style: none;
     margin-bottom: 0px;
+}
+nav ul a{
+	text-decoration-line: none;
 }
 /* h1 edited in responsive design*/
 h1{

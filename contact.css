@@ -135,8 +135,10 @@ nav ul{
 	list-style: none;
 	padding-left: 0;
 	padding: 20px;
-	text-decoration-line: none;
 margin-bottom: 0px;
+}
+nav ul a{
+	text-decoration-line: none;
 }
 
 .contact{
