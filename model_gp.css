@@ -79,19 +79,24 @@ article{
 section p {
 	padding: 1%;
 	margin-top: 0;
+	margin-bottom: 0;
 	margin-left: 2%;
 	font-size: 18px;
 }
 /*wireframe images edited*/
 section div{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 3%;
 }
 section div img{
 	width: 400px;
 	height: 400px;
 }
+section ul li{
+	font-size: 17px;
+}
+
 /*footer section started.*/
 footer{
 	padding: 1%;
@@ -103,10 +108,10 @@ footer{
 /* css for responsive design*/
 @media(max-width: 800px){
 	body{
-		width:96%;
+		width:100%;
 	}
 	header{
-    margin-top: -13%;
+    margin-top: -9%;
     margin-left: -3%;
 	}
 
@@ -118,9 +123,50 @@ nav ul{
 	text-decoration-line: none;
 margin-bottom: 0px;
 }
+article{
+width: 100%;
+}
+article div img{
+	width: 300px;
+	margin: auto;
+}
+section{
+	width: 100%;
+}
+section h1 b{
+	font-size: 18px;
+}
+section p {
+	padding: 1%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 2%;
+	font-size: 12px;
+	}
+	section div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 3%;
+	padding: 5px;
+}
+section div img{
+	margin: 2%;
+	width: 250px;
+	height: 200px;
+}
+section div p{
+	display: none;
+	content: hidden;
+}
+section ul li{
+	font-size: 10px;
+}
 footer{
+	padding: 5px;
 	display:flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin-left: -3%;
+	padding: 5%;
 }
