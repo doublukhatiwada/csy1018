@@ -50,6 +50,48 @@ nav ul li a:hover{
 	background-color:blue;
 	transform: scale(1.5);
 }
+/*article edited*/
+article{
+	display: flex;
+	justify-content: flex-start;
+}
+/*cover image edited*/
+.cover{
+	width: 90%;
+	margin: 0 auto;
+}
+/*sideabr edited*/
+.sidebar{
+	width: 300px;
+	height: 500px;
+	background-color: #0e1726;
+	margin-top: 3px;
+	padding: 3px;
+	color: white;
+}
+/*section parts edited from here*/
+.topic{
+	margin-left: 2%;
+	font-size: 30px;
+	margin-top: 2%;
+	margin-bottom: 0;
+}
+section p {
+	padding: 1%;
+	margin-top: 0;
+	margin-left: 2%;
+	font-size: 18px;
+}
+/*wireframe images edited*/
+section div{
+	display: flex;
+	justify-content: space-between;
+	margin: 3%;
+}
+section div img{
+	width: 400px;
+	height: 400px;
+}
 /*footer section started.*/
 footer{
 	padding: 1%;
