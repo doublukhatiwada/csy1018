@@ -21,6 +21,11 @@ nav{
 	margin-top: 7.5%;
 
 }
+/*hiding dropdown content*/
+nav div{
+	display: none;
+	content: hidden;
+}
 nav ul{
 	display: flex;
 	justify-content: flex-end;
@@ -92,7 +97,7 @@ article{
  /* hovering .intro content*/
 .intro:hover{
 	background-color: #A9A9A9;
-    transform: scale(1.1);
+    transform: scale(1);
 }
  .intro1{	
  	margin-left: 4%;
@@ -101,10 +106,7 @@ article{
  	padding:2%;
  	transition: transform 1s;
  }
- /* hovering .intro content*/
-.intro1:hover{
-	background-color: #A9A9A9;
-    transform: scale(1.1);}
+ 
 /*footer section started.*/
 footer{
 	padding: 1%;
@@ -124,15 +126,54 @@ footer{
 	}
 
 nav ul{
-	display: block;
+	display: none;
 	list-style: none;
 	padding-left: 0;
 	padding: 20px;
     margin-bottom: 0px;
 }
+/*editing dropdown content */
+nav {
+	margin-top: 35%;
+	margin-right: 10%;
+}
+nav div{
+display: contents;
+
+}
 nav ul a{
 	text-decoration-line: none;
+	padding: 20px;
 }
+
+nav div img{
+	height: 30px;
+	width: 30px;
+}
+nav div a{
+text-decoration-line: none;
+	color: #d1d8e0;	
+    text-decoration: none;
+    display: block;
+}
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: #0e1726;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 10px;
+}
+.dropcontent a:hover {background-color: grey;}
+.dropdown:hover .dropcontent {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/*dropdown content editing completion*/
 section{
 	width: 100%;
 	display: flex;

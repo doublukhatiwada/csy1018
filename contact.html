@@ -15,6 +15,19 @@
 		<img src="logo.png"></div>
 	<!-- adding navigation bar -->
 	<nav>
+    <!-- adding dropdown content in navigation bar -->
+    <div class="dropdown">
+  <button><img src="menu.png"></button>
+  <div class="dropcontent">
+    <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="cv.html">C.V.</a>
+      <a href="model_gp.html">Report</a>
+      <a href="contact.html">Contacts</a>
+      <a href="social.html">Social</a>
+  </div>
+</div>
+  <!-- dropdown navigation content in navigation bar completed -->
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
@@ -50,46 +63,53 @@
      <div class="contact">
     	<h1> What would you like to know ?</h1>
     </div>
+    <!-- validating Feedback Form -->
+    <script type="text/javascript">
+      function validate(form){
+         if(form.firstname.value==''){
+            alert('Please! enter your firstname');
+            form.firstname.focus();
+            return false;
+         }
+         if(form.lastname.value==''){
+            alert('Please! enter your Last name');
+            form.lastname.focus();
+            return false;
+         }
+          if(form.email.value==''){
+            alert('Please! enter your Email');
+            form.email.focus();
+            return false;
+         }
+      }
+    </script>
     <!-- feedback form stated -->
     <article>
-    	<form class="one"><br>
-    		First Name : (required)<br>
+    	<form method="POST" action="" onsubmit="return validate(this)"><br>
+    		<label>irst Name : (required)</label><br>
     		<input type="text" name="firstname" placeholder="Enter your name...."><br><br>
-    		Middle Name: (optional)<br>
+    		<label>Middle Name: (optional)</label><br>
     		<input type="text" name="middlename" placeholder="Middle name here.."><br><br>
-    		Last Name: (required)<br>
-    		<input type="text" name="lastname" placeholder="Your Last name.."><br><br>
-    		
-    	Gender:
-    <select id="gender" name="gender">
-      <option value="male">Male</option>
-      <option value="female">Female</option>
-      <option value="other">Other</option><br><br></select>
-      <br><br>
-       Email : (required)<br>
-       <input type="text" name="email" placeholder="youremail@example.com..."><br><br>
-       Tel : (optional)<br>
+    		<label>Last Name: (required)</label><br>
+    		<input type="text" name="lastname" placeholder="Your Last name.."><br><br>	
+    	 <label>Gender:</label>
+       <select id="gender" name="gender">
+       <option value="male">Male</option>
+       <option value="female">Female</option>
+       <option value="other">Other</option><br><br></select>
+       <br><br>
+       <label>Email : (required)</label><br>
+       <input type="Email" name="email" placeholder="youremail@example.com..."><br><br>
+       <label>Tel : (optional)</label><br>
        <input type="text" name="tel" placeholder="+977"><br><br>
-       Subject :<br>
+       <label>Subject :</label><br>
        <input type="text" name="Subject"><br><br>
        <textarea name="message" rows="10" cols="53"></textarea><br><br>
        <input type="submit" value="Submit"><br><br>
        </form>
-       <!-- form validation using java script -->
-       <script language="javascript">
-           function validateForm(fm) {
-       if (fm.firstname.text=="") {
-       	alert("Please enter your first name");
-       	return false;}
-       	if (fm.lastname.text=="") {
-       	alert("Please enter your last name");
-       	return false;}
-       	if (fm.email.text=="") {
-       	alert("Please enter your email address");
-       	return false;}
-       }
-</script>
-       <div class="image">
+       <!-- form completed -->
+       <!-- image added in form -->
+         <div class="image">
        	<!-- image source-https://www.bielefeldjasicher.de/images/speech.png -->
        	<img src="feedback.png" alt="responsive picture"></div>
        </article><br><br>
