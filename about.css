@@ -150,8 +150,8 @@ nav ul a{
 }
 
 nav div img{
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 }
 nav div a{
 text-decoration-line: none;
@@ -163,9 +163,8 @@ text-decoration-line: none;
     display: none;
     position: absolute;
     background-color: #0e1726;
-    min-width: 160px;
+    min-width: 70px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
     padding: 10px;
 }
 .dropcontent a:hover {background-color: grey;}
@@ -176,7 +175,6 @@ text-decoration-line: none;
     position: relative;
     display: inline-block;
 }
-/*dropdown content editing completion*/
 section{
 	display: flex;
 	flex-direction: column;
