@@ -98,6 +98,7 @@ display: contents;
 nav ul a{
 	text-decoration-line: none;
 	padding: 20px;
+	font-size: 22px;
 }
 nav div img{
 	height: 50px;
