@@ -97,8 +97,7 @@ display: contents;
 }
 nav ul a{
 	text-decoration-line: none;
-	padding: 20px;
-	font-size: 22px;
+	padding: 20px;	
 }
 nav div img{
 	height: 50px;
@@ -110,12 +109,14 @@ text-decoration-line: none;
 	color: #d1d8e0;	
     text-decoration: none;
     display: block;
+    font-size: 22px;
 }
 .dropcontent {
     display: none;
     position: absolute;
     background-color: #0e1726;
-    min-width: 70px;
+    min-width: 75px;
+    min-height: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     padding: 10px;
