@@ -139,7 +139,7 @@ margin-bottom: 0px;
 /*editing dropdown content */
 nav {
 	margin-top: 35%;
-	margin-right: 16%;
+	margin-right: 20%;
 }
 nav div{
 display: contents;
@@ -168,7 +168,7 @@ text-decoration-line: none;
     /*keeing position absolute*/
     position: absolute;
     background-color: #0e1726;
-    min-width: 75px;
+    min-width: 72px;
     min-height: 200px;
     /*addding shadow to the box when hover*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
