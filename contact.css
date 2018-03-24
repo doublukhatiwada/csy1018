@@ -10,6 +10,7 @@ header{
 	background-color: #0e1726;
 	margin-top: -2%;
 }
+/*editing logo in header*/
 header div img{
 	width: 200px;
 	height: 200px;
@@ -88,23 +89,23 @@ nav ul li a:hover{
  /*editing form box*/
  input[type=text]{
  	width: 400px;
- 	 padding: 12px 20px;
-    margin: 8px 0;
+ 	 padding: 12px 20px; /* adding padding in form textbox.*/
+    margin: 8px 0;/* margin for form textbox*/
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border: 1px solid #ccc;/* border for form textbox*/
+    border-radius: 4px; /* border radius for form textbox*/
+    box-sizing: border-box; /* border sizing for form textbox*/
 }
 /*editing submit button*/
 input[type=submit] {
     width: 400px;
-    background-color: #0e1726;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #0e1726;/* adding colour to submit button*/
+    color: white;/* making submit name white in colour*/
+    padding: 14px 20px;/* padding for submit button*/
+    margin: 8px 0;/*margin for submit button*/
+    border: none;/*border for submit button*/
+    border-radius: 4px;/*border raduis for submit button*/
+    cursor: pointer; /* changing cursor i=when pointing submit button*/
 }
 /* image source-https://www.bielefeldjasicher.de/images/speech.png*/
  article div img{
@@ -145,7 +146,7 @@ margin-bottom: 0px;
 /*editing dropdown content */
 nav {
 	margin-top: 35%;
-	margin-right: 10%;
+	margin-right: 16%;
 }
 nav div{
 display: contents;
@@ -167,16 +168,20 @@ text-decoration-line: none;
     font-size: 22px;
 }
 .dropcontent {
+	/*making content non visible unkess hover*/
     display: none;
     position: absolute;
+    /*keeing position absolute*/
     background-color: #0e1726;
     min-width: 75px;
     min-height: 200px;
+    /*addding shadow to the box when hover*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     padding: 20px;
 }
 .dropcontent a:hover {background-color: grey;}
+/*edition dropdown when hover*/
 .dropdown:hover .dropcontent {
     display: block;
 }

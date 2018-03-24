@@ -7,7 +7,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 	padding-top: 0%;
-	background-color: #0e1726;
+	background-color: #0e1726;/*adding backgroung colour to header*/
 	margin-top: -2%;
 } 
 /*logo edited*/
@@ -59,6 +59,7 @@ article{
 }
 /*section part decorated*/
 section img{
+	/*defining height and width of image*/
 	width: 400px;
 	height: 400px;
 	border-radius: 49%;
@@ -138,7 +139,7 @@ margin-bottom: 0px;
 /*editing dropdown content */
 nav {
 	margin-top: 35%;
-	margin-right: 10%;
+	margin-right: 16%;
 }
 nav div{
 display: contents;
@@ -162,15 +163,19 @@ text-decoration-line: none;
     font-size: 22px;
 }
 .dropcontent {
+	/*making content non visible unkess hover*/
     display: none;
+    /*keeing position absolute*/
     position: absolute;
     background-color: #0e1726;
     min-width: 75px;
     min-height: 200px;
+    /*addding shadow to the box when hover*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 10px;
+    padding: 20px;
 }
 .dropcontent a:hover {background-color: grey;}
+/*edition dropdown when hover*/
 .dropdown:hover .dropcontent {
     display: block;
 }
