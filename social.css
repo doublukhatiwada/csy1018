@@ -1,186 +1,184 @@
-body{background: url(back1.jpg);
+body{ background: url(back1.jpg);
+	/*adding backgroung image in the webpage*/
 	/*https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg*/
-	background-color:grey;
-	margin: 0;
+	margin:0;/*making margin 0*/
+	
 }
 /*header edited here*/
 header{
-	display: flex;
-	justify-content: space-between;
-	padding-top: 0%;
-	background-color: #0e1726;
-	margin-top: -2%;
+	display: flex;/*displaying content in flex*/
+	justify-content: space-between;/*justifying content in flex*/
+	padding-top: 0%;/*padding at top*/
+	background-color: #0e1726;/*adding backgroung colour to header*/
+	margin-top: -2%;/*margin at top*/
+} 
+/*logo edited*/
+header img{
+	width: 200px;/*width of image*/
+	height: 200px;/*height of image*/
 }
-
 /*css in navigation bar*/
 nav{
-	background-color: #0e1726;
-	margin-top: 7.5%;
-
+	background-color: #0e1726;/*navigation colour added*/
+	margin-top: 7.5%;/*navigation margin*/
 }
 /*hiding dropdown content*/
 nav div{
-	display: none;
+	display: none;/*hiding dropdown content*/
 	content: hidden;
 }
 nav ul{
-	display: flex;
-	align-content: bottom;
-	justify-content: flex-end;
-	list-style: none;
-	padding-left: 0;
+	display: flex;/*displyaing flex*/
+	justify-content: flex-end;/*justifying content in flex*/
+	list-style: none;/*list style set to none*/
+	padding-left: 0;/*padding at kleft*/
 	padding: 20px;
+margin-bottom: 0px;/*margin at bottom*/
+}
+nav ul a{/*editing hyperlinked content*/
 	text-decoration-line: none;
-margin-bottom: 0px;
 }
 nav ul li a{
-	text-decoration-line: none;
-	color: #d1d8e0;
-	display: inline-block;
+	text-decoration-line: none;/*text decoration style set to none*/
+	color: #d1d8e0;/*adding colour to the text*/
+	display: inline-block;/*displaying in block*/
 	padding-right: 20px;
-	border-radius: 3px;
+	border-radius: 3px;/*managing border radius*/
 	margin-right: 20px;
-	transition: transform 1s;
+	transition: transform 1s;/*transttion used in navigation bar*/
 	width: 50px;
 	height:20px;
 }
 /*using hover and animation in navigation items*/
 nav ul li a:hover{
-	background-color:blue;
-	transform: scale(1.5);
+	background-color:blue;/*adding colour when hover*/
+	transform: scale(1.5);/*text transform scale*/
 }
-/*footer section started.*/
 .topic{
-	font-size: 30px;
-	padding: 5px;
-	padding-left: 30px;
+	font-size: 30px;/*fontsize set to 30px*/
+	padding: 5px;/*padding set to 5 px*/
+	padding-left: 30px;/*padding left set to 30 px*/
 }
 /* atrticle content edited*/
 article{
-	display: flex;
-	justify-content: flex-start;
-	margin-left: 7%;
-	padding: 0.5%;
+	display: flex;/*displaying content in flex*/
+	justify-content: flex-start;/*justifying flex content*/
+	margin-left: 7%;/*margin left set as 7%*/
+	padding: 0.5%;/*padding set to 0.5 px*/
 }
 a{
-	text-decoration-line: none;
-    color: black;
+	text-decoration-line: none;/*text decoration style is none*/
+    color: black;/*text colour set as black*/
 }
 /* div content edited*/
 .text{
-	padding-left: 20px;
-	margin-top: 20px;
-
+	padding-left: 20px;/*padding left set to 20px*/
+	margin-top: 20px;/*margin top set as 20px*/
 }
 /*img edited*/
 a img{
-	width: 55px;
-	height: 55px;
-	padding: 3px;
-	margin-left: 5%;
-	border-radius: 20%;
+	width: 55px;/*width of a image*/
+	height: 55px;/*height of a image*/
+	padding: 3px;/*padding set to 3px*/
+	margin-left: 5%;/*margin left set as 20px*/
+	border-radius: 20%;/*border radius set as 20%*/
 }
+/*footer section started.*/
 footer{
-	padding: 1%;
-	background: #0e1726;
-	display: flex;
-	justify-content: space-around;
-	color: white;
+	padding: 1%;/*padding set to 1%*/
+	background: #0e1726;/*footer backgroung colour*/
+	display: flex;/*displaying content in flex*/
+	justify-content: space-around;/*justifying flex content*/
+	color: white;/*text colour to white*/
 }
 /* css for responsive design*/
 @media(max-width: 800px){
-	body{
-		width:100%;
-	}
-	header{
-		margin-top: -9%;
-		margin-left: -3%;
-	}
-
+body{
+	width:100%;/*body width to 100%*/
+}
+header{/*margin for the header in handheld*/
+	margin-top: -9%;/*defining margin at top*/
+	margin-left: -3%;
+}
 nav ul{
-	display: none;
-	list-style: none;
-	padding-left: 10;
-	padding: 20px;
-    margin-bottom: 0px;
+	display: none;/*hidding content of navigation*/
+	list-style: none;/*listing style to none*/
+	padding-left: 10;/*padding left on navigation*/
+	padding: 20px;/*padding on navigation*/
+    margin-bottom: 0px;/*margin at the bottom*/
 }
 /*editing dropdown content */
 nav {
-	margin-top: 35%;
-	margin-right: 20%;
+	margin-top: 35%;/*margin at the top*/
+	margin-right: 20%;/*margin at the right*/
 }
 nav div{
-display: contents;
-
+    display: contents;/*displaying hidden content*/
 }
 nav ul a{
-	text-decoration-line: none;
-	padding: 20px;	
+	text-decoration-line: none;/*text decoration to none*/
+	padding: 20px;/*padding to 22 px*/		
 }
-nav div img{
-	height: 50px;
-	width: 30px;
+nav div img{/*setting new css to div image*/
+	height: 50px;/*height for menu*/
+	width: 30px;/*width for menu*/
 }
 nav div a{
-text-decoration-line: none;
-	color: #d1d8e0;	
-    text-decoration: none;
-    display: block;
-    font-size: 22px;
+    text-decoration-line: none;/*text decoaration to none*/
+	color: #d1d8e0;	/*background colour for navigation*/
+    text-decoration: none;/*text decoration to none*/
+    display: block;/*content displayed as block*/
+    font-size: 22px;/*fontsize to 22 px*/
 }
 .dropcontent {
 /*making content non visible unkess hover*/
     display: none;
        /*keeing position absolute*/
     position: absolute;
-    background-color: #0e1726;
-    min-width: 70px;
-    min-height: 200px;
+    background-color: #0e1726;/*dropdown backgroung colour*/
+    min-width: 70px;/*min width for dropdown*/
+    min-height: 200px;/*min height for dropdown*/
  /*addding shadow to the box when hover*/
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*adding css shadow */
+    padding: 20px;/*dropdown content padding*/
 }
 .dropcontent a:hover {background-color: grey;}
 /*dropdown content editing completion*/
 .dropdown:hover .dropcontent {
-    display: block;
+    display: block;/*displaying content in block*/
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
+    position: relative;/*position set to relative*/
+    display: inline-block;/*content displayed as inline block*/
 }
 /*dropdown content editing completion*/
-
 /* h1 edited in responsive design*/
 h1{
-font-size: 20px;
+font-size: 20px;/*fontsize set to 20px*/
 }
 /*topic edited in responsive design*/
 .topic{
-	font-size: 15px;
-	padding: 5px;
+	font-size: 15px;/*fontsize set to 15px*/
+	padding: 5px;/*padding set to 5px*/
 }
 .text{
-	padding-left: 5px;
-	margin-left: 5%;
+	padding-left: 5px;/*padding left set to 5px*/
+	margin-left: 5%;/*margin left set to 5%*/
 }
 .pic{
-	margin: 1%;
+	margin: 1%;/*margin set to 1%*/
 }
 /* atrticle content edited for responsive design*/
 article {
-	display: flex;
-	flex-direction: column;
-	margin-left: 7%;
-	padding: 0.5%;
+	display: flex;/*displaying content in flex*/
+	flex-direction: column;/*flex direction to column*/
+	margin-left: 7%;/*margin left set to 7%*/
+	padding: 0.5%;/*padding set to 5px*/
 }
-
 footer{
-	padding: 5px;
-	display:flex;
-	flex-direction: column;
+	padding: 5px;/*padding for footer*/
+	display:flex;/*displaying content in flex*/
+	flex-direction: column;/*flex direction to the column*/
 	flex-wrap: wrap;
 	margin-left: -3%;
-	padding: 5%;
 }

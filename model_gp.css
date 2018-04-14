@@ -1,225 +1,201 @@
-body{
-	background-color:#fff;
-	margin: 0;
+body{ background:#fff;
+	margin:0;/*making margin 0*/
+	
 }
 /*header edited here*/
 header{
-	display: flex;
-	justify-content: space-between;
-	padding-top: 0%;
-	background-color: #0e1726;
-	margin-top: -2%;
-}
-header h3{
-	color: #d1d8e0;
-	font-size: 30px;
-	text-align: none;
-	padding left:30px;
-	display: flex;
-	padding-left: 17px;
-	padding-top: 12px;
+	display: flex;/*displaying content in flex*/
+	justify-content: space-between;/*justifying content in flex*/
+	padding-top: 0%;/*padding at top*/
+	background-color: #0e1726;/*adding backgroung colour to header*/
+	margin-top: -2%;/*margin at top*/
+} 
+/*logo edited*/
+header img{
+	width: 200px;/*width of image*/
+	height: 200px;/*height of image*/
 }
 /*css in navigation bar*/
 nav{
-	background-color: #0e1726;
-	margin-top: 7.5%;
-
+	background-color: #0e1726;/*navigation colour added*/
+	margin-top: 7.5%;/*navigation margin*/
 }
 /*hiding dropdown content*/
 nav div{
-	display: none;
+	display: none;/*hiding dropdown content*/
 	content: hidden;
 }
 nav ul{
-	display: flex;
-	justify-content: flex-end;
-	list-style: none;
-	padding-left: 0;
+	display: flex;/*displyaing flex*/
+	justify-content: flex-end;/*justifying content in flex*/
+	list-style: none;/*list style set to none*/
+	padding-left: 0;/*padding at kleft*/
 	padding: 20px;
+margin-bottom: 0px;/*margin at bottom*/
+}
+nav ul a{/*editing hyperlinked content*/
 	text-decoration-line: none;
-margin-bottom: 0px;
 }
 nav ul li a{
-	text-decoration-line: none;
-	color: #d1d8e0;
-	display: inline-block;
+	text-decoration-line: none;/*text decoration style set to none*/
+	color: #d1d8e0;/*adding colour to the text*/
+	display: inline-block;/*displaying in block*/
 	padding-right: 20px;
-	border-radius: 3px;
+	border-radius: 3px;/*managing border radius*/
 	margin-right: 20px;
-	transition: transform 1s;
+	transition: transform 1s;/*transttion used in navigation bar*/
 	width: 50px;
 	height:20px;
 }
 /*using hover and animation in navigation items*/
 nav ul li a:hover{
-	background-color:blue;
-	transform: scale(1.5);
-}
-/*article edited*/
-article{
-	display: flex;
-	justify-content: flex-start;
+	background-color:blue;/*adding colour when hover*/
+	transform: scale(1.5);/*text transform scale*/
 }
 /*cover image edited*/
 .cover{
-	width: 90%;
-	margin: 0 auto;
-}
-/*sideabr edited*/
-.sidebar{
-	width: 300px;
-	height: 500px;
-	background-color: #0e1726;
-	margin-top: 3px;
-	padding: 3px;
-	color: white;
+	width: 90%;/*width of the cover image*/
+	margin: 0 auto;/*margin set to 0 auto*/
 }
 /*section parts edited from here*/
 .topic{
-	margin-left: 2%;
-	font-size: 30px;
-	margin-top: 2%;
-	margin-bottom: 0;
+	margin-left: 2%;/*margin left set to 2%*/
+	font-size: 30px;/*font size set to 30px*/
+	margin-top: 2%;/*margin top set to 2%*/
+	margin-bottom: 0;/*margin bottom set to 0*/
 }
 section p {
-	padding: 1%;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 2%;
-	font-size: 18px;
+	padding: 1%;/*padding set to 1%*/
+	margin-top: 0;/*margin top set to 0*/
+	margin-bottom: 0;/*margin bottom set to 0*/
+	margin-left: 2%;/*margin left set to 2%*/
+	font-size: 18px;/*font size set to 18px*/
 }
 /*wireframe images edited*/
 section div{
-	display: flex;
-	justify-content: space-around;
-	margin: 3%;
+	display: flex;/*displaying content in flex*/
+	justify-content: space-around;/*justifying flex content*/
+	margin: 3%;/*margin set to 3%*/
 }
 section div img{
-	width: 400px;
-	height: 400px;
+	width: 400px;/*setting width of image*/
+	height: 400px;/*setting height of image*/
 }
 section ul li{
-	font-size: 17px;
+	font-size: 17px;/*font size set to 17px*/
 }
-
 /*footer section started.*/
 footer{
-	padding: 1%;
-	background: #0e1726;
-	display: flex;
-	justify-content: space-around;
-	color: white;
+	padding: 1%;/*padding set to 1%*/
+	background: #0e1726;/*setiing background colour*/
+	display: flex;/*displaying content in flex*/
+	justify-content: space-around;/*justifying flex content*/
+	color: white;/*colour set to white*/
 }
 /* css for responsive design*/
 @media(max-width: 800px){
-	body{
-		width:100%;
-	}
-	header{
-    margin-top: -9%;
+body{
+	width:100%;/*body width to 100%*/
+}
+header{/*margin for the header in handheld*/
+    margin-top: -9%;/*defining margin at top*/
     margin-left: -3%;
-	}
-
+}
 nav ul{
-	display: none;
-	list-style: none;
-	padding-left: 0;
-	padding: 20px;
-	text-decoration-line: none;
-margin-bottom: 0px;
+	display: none;/*hidding content of navigation*/
+	list-style: none;/*listing style to none*/
+	padding-left: 0;/*padding left on navigation*/
+	padding: 20px;/*padding on navigation*/
+    margin-bottom: 0px;/*margin at the bottom*/
 }
 /*editing dropdown content */
 nav {
-	margin-top: 35%;
-	margin-right: 20%;
+	margin-top: 35%;/*margin at the top*/
+	margin-right: 20%;/*margin at the right*/
 }
 nav div{
-display: contents;
-
+display: contents;/*displaying hidden content*/
 }
 nav ul a{
-	text-decoration-line: none;
-	padding: 20px;
-	
+	text-decoration-line: none;/*text decoration to none*/
+	padding: 20px;/*padding to 22 px*/		
 }
-nav div img{
-	height: 50px;
-	width: 30px;
+nav div img{/*setting new css to div image*/
+	height: 50px;/*height for menu*/
+	width: 30px;/*width for menu*/
 }
 nav div a{
-text-decoration-line: none;
-	color: #d1d8e0;	
-    text-decoration: none;
-    display: block;
-    font-size: 22px;
+text-decoration-line: none;/*text decoaration to none*/
+	color: #d1d8e0;	/*background colour for navigation*/
+    text-decoration: none;/*text decoration to none*/
+    display: block;/*content displayed as block*/
+    font-size: 22px;/*fontsize to 22 px*/
 }
 .dropcontent {
 /*making content non visible unkess hover*/
     display: none;
      /*keeing position absolute*/
     position: absolute;
-    background-color: #0e1726;
-    min-width: 70px;
-    min-height: 200px;
+    background-color: #0e1726;/*dropdown backgroung colour*/
+    min-width: 70px;/*min width for dropdown*/
+    min-height: 200px;/*min height for dropdown*/
     /*addding shadow to the box when hover*/
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    padding: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*adding css shadow */
+    padding: 20px;/*dropdown content padding*/
 }
 .dropcontent a:hover {background-color: grey;}
 /*dropdown content editing completion*/
 .dropdown:hover .dropcontent {
-    display: block;
+    display: block;/*displaying content in block*/
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
+    position: relative;/*position set to relative*/
+    display: inline-block;/*content displayed as inline block*/
 }
 /*dropdown content editing completion*/
 article{
-width: 100%;
+width: 100%;/*making article width to 100%*/
 }
 article div img{
-	width: 300px;
-	margin: auto;
+	width: 300px;/*setting image width*/
+	margin: auto;/*setting margin to auto*/
 }
 section{
-	width: 100%;
+	width: 100%;/*making section width to 100%*/
 }
 section h1 b{
-	font-size: 18px;
+	font-size: 18px;/*setting font size to 18px*/
 }
 section p {
-	padding: 1%;
-	margin-top: 0;
-	margin-bottom: 0;
-	margin-left: 2%;
-	font-size: 12px;
-	}
-	section div{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	margin: 3%;
-	padding: 5px;
+	padding: 1%;/*padding set to 1%*/
+	margin-top: 0;/*setting margin top to 0*/
+	margin-bottom: 0;/*setting margin bottom to 0*/
+	margin-left: 2%;/*setting margin left to 2%*/
+	font-size: 12px;/*setting font size to 12px*/
+}
+section div{
+	display: flex;/*displaying content in flex*/
+	flex-direction: column;/*flex direction to column*/
+	justify-content: space-between;/*justifying content for flex*/
+	margin: 3%;/*setting margin to 3%*/
+	padding: 5px;/*padding set to 5px*/
 }
 section div img{
-	margin: 2%;
-	width: 250px;
-	height: 200px;
+	margin: 2%;/*setting margin to 3%*/
+	width: 250px;/*setting width of image*/
+	height: 200px;/*setting height of image*/
 }
 section div p{
-	display: none;
-	content: hidden;
+	display: none;/*hiding content*/
+	content: hidden;/*hiding content*/
 }
 section ul li{
-	font-size: 10px;
+	font-size: 10px;/*setting font size to 10 px*/
 }
 footer{
-	padding: 5px;
-	display:flex;
-	flex-direction: column;
+	padding: 5px;/*padding for footer*/
+	display:flex;/*displaying content in flex*/
+	flex-direction: column;/*flex direction to the column*/
 	flex-wrap: wrap;
 	margin-left: -3%;
-	padding: 5%;
 }

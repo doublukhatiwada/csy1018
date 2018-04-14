@@ -16,33 +16,36 @@
 	<!-- adding navigation bar -->
 	<nav>
     <!-- adding dropdown content in navigation bar -->
-    <div class="dropdown">
-  <button><img src="menu.png"></button>
-  <div class="dropcontent">
-    <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="cv.html">C.V.</a>
-      <a href="model_gp.html">Report</a>
-      <a href="contact.html">Contacts</a>
-      <a href="social.html">Social</a>
-  </div>
-</div>
-  <!-- dropdown navigation content in navigation bar completed -->
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="cv.html">C.V.</a></li>
-			<li><a href="model_gp.html">Report</a></li>
-			<li><a href="contact.html">Contacts</a></li>
-			<li><a href="social.html">Social</a></li>
-
-		</ul>
-	</nav>
+    <div class="dropdown"><!--making dropdown for navigation bar-->
+    <button><img src="menu.png"></button>
+    <div class="dropcontent"><!--making dropdown button for navigation bar-->
+      <a href="index.html">Home</a><!--home in dropdown content-->
+      <a href="about.html">About</a><!--about in dropdown content-->
+      <a href="cv.html">C.V.</a><!--cv in dropdown content-->
+      <a href="model_gp.html">Report</a><!--report in dropdown content-->
+      <a href="contact.html">Contacts</a><!--contact in dropdown content-->
+      <a href="social.html">Social</a><!--social in dropdown content-->
+    </div>
+    </div>
+    <!-- dropdown content in navigation bar completed -->
+    <!-- normal navigation bar started -->
+    <ul>
+  <li><a href="index.html">Home</a></li><!--home in navigation content-->
+  <li><a href="about.html">About</a></li><!--about in navigation content-->
+  <li><a href="cv.html">C.V.</a></li><!--cv in navigation content-->
+  <li><a href="model_gp.html">Report</a></li><!--report in navigation content-->
+  <li><a href="contact.html">Contacts</a></li><!--contact in navigation content-->
+  <li><a href="social.html">Social</a></li><!--social in navigation content-->
+    </ul>
+  </nav>
     </header>
+    <!-- making class for contact -->
     <div class="contact">
     	<h1>Contact Us</h1>
     </div>
+    <!-- section under class contact -->
     <section>
+      <!-- making two div for contact page detail. -->
     	<div class="first"><br> 
     		<b>Mailing Address</b><br><br>
     		  Bhuwan Khatiwada<br>
@@ -65,28 +68,28 @@
     </div>
     <!-- validating Feedback Form -->
     <script type="text/javascript">
-      function validate(form){
+      function validate(form){//checking value for first name
          if(form.firstname.value==''){
             alert('Please! enter your firstname');
-            form.firstname.focus();
+            form.firstname.focus();//focusing on firstname box
             return false;
          }
-         if(form.lastname.value==''){
+         if(form.lastname.value==''){//checking value for lastname
             alert('Please! enter your Last name');
-            form.lastname.focus();
+            form.lastname.focus();//focusing on lastname box
             return false;
          }
-          if(form.email.value==''){
-            alert('Please! enter your Email');
+          if(form.email.value==''){//checking value for email
+            alert('Please! enter your Email');//focusing on email box
             form.email.focus();
             return false;
          }
-      }
+      }//javascript for validation of form completed.
     </script>
     <!-- feedback form stated -->
     <article>
     	<form method="POST" action="" onsubmit="return validate(this)"><br>
-    		<label>irst Name : (required)</label><br>
+    		<label>First Name : (required)</label><br>
     		<input type="text" name="firstname" placeholder="Enter your name...."><br><br>
     		<label>Middle Name: (optional)</label><br>
     		<input type="text" name="middlename" placeholder="Middle name here.."><br><br>
@@ -109,6 +112,7 @@
        </form>
        <!-- form completed -->
        <!-- image added in form -->
+       <!-- making new div for image -->
          <div class="image">
        	<!-- image source-https://www.bielefeldjasicher.de/images/speech.png -->
        	<img src="feedback.png" alt="responsive picture"></div>
@@ -117,21 +121,20 @@
        <!-- map embedded from google maps -->
        <div class="contact">
     	<h1>Find Us</h1>
+      <!-- using google api for adding map in the website -->
        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3531.7422456186746!2d85.34707191493729!3d27.725243531312525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1521252956441" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
      </div>
     <!-- footer section of the web page -->
      <footer>
-
-    	<div class="foot"> <h3>About us</h3>
-    		<p>Bhuwan Khatiwada is a student currenty studying Computing in NAMI college. He aspire to become good IT professional in future.</p> 
+    	<div class="foot"> <h3>About us</h3><!-- adding first section -->
+    		<p>Bhuwan Khatiwada is a student currently studying Computing in NAMI college. He aspire to become good IT professional in future.</p> 
     	    </div>
-    	    <div class="foot2">
+    	    <div class="foot2"><!-- adding second section -->
     	    	<h3> Find Us</h3>
     	    	facebook- www.facebook.com/doublu.katiwada
     	    </div>
-    	    <div class="foot1"><h3> copyright</h3>
-    	    © 2018 BhuwanKhatiwada.All Rights Reserved. Designed By Bhuwan Khatiwada.</div>
-    	    
-    </footer>
+    	    <div class="foot1"><h3> copyright</h3><!-- adding third section -->
+    	    © 2018 BhuwanKhatiwada. All Rights Reserved. Designed By Bhuwan Khatiwada.</div>  
+    </footer><!--footer section completed-->
 </body>
 </html>

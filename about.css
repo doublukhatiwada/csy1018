@@ -1,62 +1,61 @@
 body{ background: url(back1.jpg);
+	/*adding backgroung image in the webpage*/
 	/*https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg*/
-	margin:0;
-	background-color:grey;
+	margin:0;/*making margin 0*/
+	
 }
 /*header edited here*/
 header{
-	display: flex;
-	justify-content: space-between;
-	padding-top: 0%;
+	display: flex;/*displaying content in flex*/
+	justify-content: space-between;/*justifying content in flex*/
+	padding-top: 0%;/*padding at top*/
 	background-color: #0e1726;/*adding backgroung colour to header*/
-	margin-top: -2%;
+	margin-top: -2%;/*margin at top*/
 } 
 /*logo edited*/
 header img{
-	width: 200px;
-	height: 200px;
+	width: 200px;/*width of image*/
+	height: 200px;/*height of image*/
 }
-
 /*css in navigation bar*/
 nav{
-	background-color: #0e1726;
-	margin-top: 7.5%;
+	background-color: #0e1726;/*navigation colour added*/
+	margin-top: 7.5%;/*navigation margin*/
 }
 /*hiding dropdown content*/
 nav div{
-	display: none;
+	display: none;/*hiding dropdown content*/
 	content: hidden;
 }
 nav ul{
-	display: flex;
-	justify-content: flex-end;
-	list-style: none;
-	padding-left: 0;
+	display: flex;/*displyaing flex*/
+	justify-content: flex-end;/*justifying content in flex*/
+	list-style: none;/*list style set to none*/
+	padding-left: 0;/*padding at kleft*/
 	padding: 20px;
-margin-bottom: 0px;
+margin-bottom: 0px;/*margin at bottom*/
 }
-nav ul a{
+nav ul a{/*editing hyperlinked content*/
 	text-decoration-line: none;
 }
 nav ul li a{
-	text-decoration-line: none;
-	color: #d1d8e0;
-	display: inline-block;
+	text-decoration-line: none;/*text decoration style set to none*/
+	color: #d1d8e0;/*adding colour to the text*/
+	display: inline-block;/*displaying in block*/
 	padding-right: 20px;
-	border-radius: 3px;
+	border-radius: 3px;/*managing border radius*/
 	margin-right: 20px;
-	transition: transform 1s;
+	transition: transform 1s;/*transttion used in navigation bar*/
 	width: 50px;
 	height:20px;
 }
 /*using hover and animation in navigation items*/
 nav ul li a:hover{
-	background-color:blue;
-	transform: scale(1.5);
-}
+	background-color:blue;/*adding colour when hover*/
+	transform: scale(1.5);/*text transform scale*/
+}/*css for article used in HTML*/
 article{
-	font-size: 30px;
-	
+	font-size: 30px;	
 }
 /*section part decorated*/
 section img{
@@ -64,78 +63,72 @@ section img{
 	width: 400px;
 	height: 400px;
 	border-radius: 49%;
-	display:inline-block;
-	margin-right: auto;
+	display:inline-block;/*displaying in inline block*/
+	margin-right: auto;/*making margin to right auto*/
 	margin-left: 1%;
-	display: flex;
+	display: flex;/*displaying in flex left*/
 	padding: 2%;
 	transition: transform 1s;
-	
 }
 /*hover in my pic*/
 section img:hover{
-	
 	transform: scale(1.3);
 }
-section{
+section{/*displaying section in flex*/
 	display: flex;
 	justify-content: space-between;
 }
-section p{
+section p{/*defining font size and padding for paragraph*/
 	font-size: 30px;
 	padding: 2%;
 }
 div h1{
-	text-align: center;
+	text-align: center;/*aligning text to center*/
 	font: 30px;
 }
 /* article tag edited*/
 article {
-	display: flex;
-	justify-content: space-around;
-
+	display: flex;/*displaying in flex*/
+	justify-content: space-around;/*justifying flex content*/
 }
 /*css in certificate with hover*/
  article div img {
-	height: 300px;
+	height: 300px;/*height and width of the image*/
 	width: 300px;
 	padding: 2px;
 	transition: transform 1s;
 }
- article div img:hover{
-	
+ article div img:hover{/*hovering at the picture*/
 	transform: scale(1.1);
 }
-
- 
 /*footer section started.*/
 footer{
 	padding: 1%;
-	background: #0e1726;
-	display: flex;
-	justify-content: space-around;
+	background: #0e1726;/*adding colour to the footer*/
+	display: flex;/*displaying content in flex*/
+	justify-content: space-around;/*justifying flex content*/
 	color: white;
 }
 /* css for responsive design*/
-@media(max-width: 800px){
+@media(max-width: 800px){/*setting max width to 800 px*/
 body{
-		width: 100%;
+	width: 100%;
 }
-header{
+header{/*setting margin for header*/
 	 margin-top: -9%;
 	 margin-left: -3%;
 }
-header div img{
-    	width: 200px;
-    	height: 200px;
+header div img{/*new dimension for image*/
+    width: 200px;
+    height: 200px;
 }
-nav ul{
-	display: none;
-	list-style: none;
-	padding-left: 0;
+nav ul{/*navigation at handheld device*/
+	display: none;/*hiding the navigation content*/
+	list-style: none;/*list style none*/
+	padding-left: 0;/*padding toward left*/
 	padding: 20px;
-	text-decoration-line: none;
-margin-bottom: 0px;
+	text-decoration-line: none;/*decoration for text line*/
+    margin-bottom: 0px;
 }
 /*editing dropdown content */
 nav {
@@ -143,85 +136,82 @@ nav {
 	margin-right: 20%;
 }
 nav div{
-display: contents;
-
+    display: contents;/*displaying dropdown content*/
 }
 nav ul a{
 	text-decoration-line: none;
-	padding: 20px;
+	padding: 20px;/*padding for drop down*/
 }
-
-nav div img{
-	height: 50px;
+nav div img{/*heing and width for dropdown menu*/
+	height: 50px;/*setting new height*/
 	width: 30px;
 }
 nav div a{
-text-decoration-line: none;
-	color: #d1d8e0;	
-    text-decoration: none;
-    display: block;
-    padding: 3%;
-    font-size: 22px;
+    text-decoration-line: none;/*setting text decoration line*/
+	color: #d1d8e0;/*adding colour*/
+    text-decoration: none;/*text decoaration style set to none*/
+    display: block;/*displaying in the block*/
+    padding: 3%;/*padding set to 3%*/
+    font-size: 22px;/*font size to 22 px*/
 }
 .dropcontent {
 	/*making content non visible unkess hover*/
     display: none;
     /*keeing position absolute*/
     position: absolute;
-    background-color: #0e1726;
-    min-width: 70px;
-    min-height: 200px;
+    background-color: #0e1726;/*adding background colour*/
+    min-width: 70px;/*min width for dropdown*/
+    min-height: 200px;/*min height for dropdown*/
     /*addding shadow to the box when hover*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 20px;
 }
 .dropcontent a:hover {background-color: grey;}
 /*edition dropdown when hover*/
-.dropdown:hover .dropcontent {
+.dropdown:hover .dropcontent {/*css when hover at menu*/
     display: block;
 }
 .dropdown {
-    position: relative;
-    display: inline-block;
+    position: relative;/*makinig postion relative*/
+    display: inline-block;/*displaying in in-line block*/
 }
 /*dropdown navigation bar edition completed*/
 section{
-	display: flex;
-	flex-direction: column;
+	display: flex;/*displaying content in flex*/
+	flex-direction: column;/*flex direction to column from row*/
 	flex-wrap: wrap;
 }
-section img{
-	width: 100px;
+section img{/*new css for my image*/
+	width: 100px;/*new width to my image*/
 	height: 100px;
-	display: block;
-	margin-right: auto;
+	display: block;/*displaying in the block*/
+	margin-right: auto;/*margin to both side as auto*/
 	margin-left: auto;
 }
-section p{
+section p{/*setting new css to paragraoh*/
 	font-size: 10px;
-	padding: 2%;
+	padding: 2%;/*new padding to paragraph*/
 }
 article{
-	font-size: 25px;
-	
+	font-size: 25px;/*article font size*/
 }
-article div img{
-	width: 80px;
-	height: 80px;
+article div img{/*image css to certificate*/
+	width: 80px;/*width to certificate*/
+	height: 80px;/*height to certificate*/
 }
 footer{
-	display:flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	padding: 5%;
+	display:flex;/*displaying flex in footer*/
+	flex-direction: column;/*flex direction to column*/
+	flex-wrap: wrap;/*making flex wrap*/
+	padding: 5%;/*padding for the footer*/
 	margin-left: -2%;
 }
 article{
-	display: flex;
-	flex-direction: row;
+	display: flex;/*flex for article*/
+	flex-direction: row;/*flex direction to row*/
 	flex-wrap: wrap;
 }
-div img{
+div img{/*setting new css to div image*/
 	height: 80px;
 	width: 80px;
 }
