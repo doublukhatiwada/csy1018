@@ -1,4 +1,4 @@
-body{ background: url(back1.jpg);
+ body{ background: url(back1.jpg);
 	/*adding backgroung image in the webpage*/
 	/*https://image.freepik.com/free-psd/abstract-background-design_1297-87.jpg*/
 	margin:0;/*making margin 0*/
@@ -262,5 +262,4 @@ footer{
 	display:flex;/*displaying content in flex*/
 	flex-direction: column;/*flex direction to the column*/
 	flex-wrap: wrap;
-	margin-left: -3%;
 }
