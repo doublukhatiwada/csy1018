@@ -132,8 +132,8 @@ nav ul{/*navigation at handheld device*/
 }
 /*editing dropdown content */
 nav {
-	margin-top: 50%;
-	margin-right: 40%;
+	margin-top: 35%;
+	margin-right: 20%;
 }
 nav div{
     display: contents;/*displaying dropdown content*/
@@ -143,8 +143,8 @@ nav ul a{
 	padding: 20px;/*padding for drop down*/
 }
 nav div img{/*heing and width for dropdown menu*/
-	height: 20px;/*setting new height*/
-	width: 20px;
+	height: 30px;/*setting new height*/
+	width: 30px;
 }
 nav div a{
     text-decoration-line: none;/*setting text decoration line*/
@@ -160,7 +160,7 @@ nav div a{
     /*keeing position absolute*/
     position: absolute;
     background-color: #0e1726;/*adding background colour*/
-    min-width: 68px;/*min width for dropdown*/
+    min-width: 72px;/*min width for dropdown*/
     width: 100% /*width set to 100%*/
     min-height: 200px;/*min height for dropdown*/
     /*addding shadow to the box when hover*/
