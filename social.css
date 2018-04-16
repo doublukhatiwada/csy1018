@@ -137,7 +137,7 @@ nav div a{
        /*keeing position absolute*/
     position: absolute;
     background-color: #0e1726;/*dropdown backgroung colour*/
-    min-width: 72px;/*min width for dropdown*/
+    min-width: 68px;/*min width for dropdown*/
     width: 100%;/*making width 100%*/
     min-height: 150px;/*min height for dropdown*/
  /*addding shadow to the box when hover*/
