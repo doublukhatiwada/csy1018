@@ -165,7 +165,7 @@ nav div a{
     min-height: 200px;/*min height for dropdown*/
     /*addding shadow to the box when hover*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 20px;
+    padding: 18px;
 }
 .dropcontent a:hover {background-color: grey;}
 /*edition dropdown when hover*/
