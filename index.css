@@ -91,8 +91,8 @@ nav ul{
 }
 /*editing dropdown content */
 nav {
-	margin-top: 35%;/*margin at the top*/
-	margin-right: 20%;/*margin at the right*/
+	margin-top: 50%;/*margin at the top*/
+	margin-right: 40%;/*margin at the right*/
 }
 nav div{
     display: contents;/*displaying hidden content*/
@@ -102,14 +102,15 @@ nav ul a{
 	padding: 20px;/*padding to 22 px*/	
 }
 nav div img{/*setting new css to div image*/
-	height: 50px;/*height for menu*/
-	width: 30px;/*width for menu*/
+	height: 20px;/*height for menu*/
+	width: 20px;/*width for menu*/
 }
 nav div a{
     text-decoration-line: none;/*text decoaration to none*/
 	color: #d1d8e0;/*background colour for navigation*/
     text-decoration: none;/*text decoration to none*/
     display: block;/*content displayed as block*/
+     padding: 3%;/*padding set to 3%*/
     font-size: 22px;/*fontsize to 22 px*/
 }
 .dropcontent {
@@ -118,7 +119,8 @@ nav div a{
     position: absolute;
      /*keeing position absolute*/
     background-color: #0e1726;/*dropdown backgroung colour*/
-    min-width: 70px;/*min width for dropdown*/
+    min-width: 68px;/*min width for dropdown*/
+    width: 100%/*making width 100%*/
     min-height: 200px;/*min height for dropdown*/
     /*addding shadow to the box when hover*/
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);/*adding css shadow */
@@ -131,7 +133,7 @@ nav div a{
 }
 .dropdown {
     position: relative;/*position set to relative*/
-    display: inline-block;/*content displayed as inline block*/
+    display: inline block;/*content displayed as inline block*/
 }
 /*dropdown content editing completion*/
 section{
