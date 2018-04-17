@@ -264,7 +264,7 @@ iframe{/*css for google api map*/
 	height: 400px;/*height of map*/
 }
 footer{
-	padding: 5%;/*padding for footer*/
+	padding: 3%;/*padding for footer*/
 	display:flex;/*displaying content in flex*/
 	flex-direction: column;/*flex direction to the column*/
 	flex-wrap: wrap;
